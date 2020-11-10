@@ -1,0 +1,178 @@
+.logoImg {
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0, 0, 0) !important;
+}
+
+.navbar {
+  margin-top: 7px;
+}
+
+.mr-auto img {
+  height: 30px;
+  width: 30px;
+  margin-top: 7px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.mr-auto img:hover {
+  height: 34px;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+
+#dashboard {
+  display: none;
+}
+
+.logoTeam {
+  height: 51px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -3px;
+}
+
+#homePage .bg-light {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 400;
+  color: rgb(0, 0, 0) !important;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .inputSearch .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100vw - 840px) !important;
+    margin-left: 16px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    outline: none;
+    height: 46px;
+  }
+
+  .inputSearch {
+    height: 46px;
+    width: calc(100vw - 780px) !important;
+    border-radius: 23px;
+    background-color: rgb(235, 235, 235);
+  }
+
+  .inputSearch input:focus {
+    outline: none !important;
+    outline-style: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+    background-color: none;
+  }
+
+  input:focus .inputSearch {
+    background-color: white !important;
+  }
+}
+
+.inputSearchFocus {
+  background-color: white;
+  box-shadow: 0px 1px 4px #cacaca;
+}
+
+#basic-navbar-nav .mr-auto,
+.mx-auto {
+  margin-right: 10px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3, Hiragino Kaku Gothic Pro, ãƒ¡ã‚¤ãƒªã‚ª, Meiryo,
+    ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  /* color: #333 !important; */
+  font-size: 16px;
+  padding: 8px !important;
+
+  /* padding-top: 6px !important;
+  padding-left: 10px !important;
+  padding-right: 15px !important; */
+}
+
+.backgroundTrangchu {
+  background-color: black;
+  border-radius: 23px;
+  margin-right: 10px;
+  height: 46px;
+}
+
+.navbar-light .navbar-nav .backgroundTrangchu .nav-link {
+  color: white !important;
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* background-color: #211922; */
+}
+
+#trangchu {
+  margin-bottom: -10px;
+}
+
+.AiFillSettings svg,
+.FaBells svg {
+  stroke: currentcolor;
+  fill: currentcolor;
+  stroke-width: 0;
+  height: 1.8em !important;
+  width: 1.8em !important;
+  opacity: 0.6;
+  margin-top: 8px;
+  margin-left: 8.6px;
+}
+
+.AiFillSettings,
+.FaBells {
+  height: 46px;
+  width: 46px;
+  border-radius: 23px;
+  margin-left: 15px;
+}
+
+.FaBells:hover,
+.AiFillSettings:hover {
+  background-color: rgb(235, 235, 235);
+}
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+.backgroundCanhan {
+  background-color: black;
+  border-radius: 23px;
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 46px;
+}
+.backgroundCanhan a {
+  color: white !important;
+  margin-bottom: -10px !important;
+}
+.backgroundFollow {
+  background-color: black;
+  border-radius: 23px;
+  padding-right: 5px;
+  padding-left: 5px;
+  height: 46px;
+}
+.backgroundFollow a {
+  color: white !important;
+}
+#follow {
+  margin-bottom: -10px;
+}

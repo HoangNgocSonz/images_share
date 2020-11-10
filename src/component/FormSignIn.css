@@ -1,0 +1,137 @@
+.form-sign-in {
+  box-sizing: border-box;
+  width: 400px;
+  margin: 100px auto 0;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.form-sign-in h1 {
+  box-sizing: border-box;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.icon {
+  width: 2%;
+}
+
+.form-sign-in input[type="email"] {
+  background: url("../access/email.png") no-repeat 0px 4px;
+  background-size: 25px;
+}
+
+.form-sign-in input[type="password"] {
+  background: url("../access/pass.png") no-repeat 0px 3.5px;
+  background-size: 20px;
+}
+
+.form-sign-in input {
+  margin: 8%;
+  width: 80%;
+  display: block;
+  border: none;
+  padding: 6px 30px;
+  border-bottom: solid 2px #636363;
+  background-repeat: no-repeat;
+  color: #0e6252;
+}
+
+.wrongPassWord {
+  border-bottom: solid 2px #ff5b29 !important;
+}
+
+input:focus,
+input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+/* input:focus::-webkit-input-placeholder,
+input:valid::-webkit-input-placeholder {
+  color: #838383;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+} */
+
+.form-sign-in button {
+  display: block;
+  border: none;
+  background: #636363;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 6px;
+  width: 200px;
+  color: white;
+  margin: 1em auto;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-sign-in button:hover {
+  background: #3f3f3f;
+  transform: translateY(-0px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-sign-in > a {
+  color: #636363;
+  margin-left: 140px;
+}
+/* .bottom {
+  margin-top: 0px;
+} */
+.create-acc {
+  margin-top: 20px;
+  border-top: rgb(153, 153, 153) 1px solid;
+  padding-top: 10px;
+  padding-left: 88px;
+}
+
+.create-acc p {
+  display: inline;
+  color: rgb(99, 99, 99);
+}
+
+.create-acc a {
+  color: #636363;
+}
+
+@media screen and (max-width: 400px) {
+  .form-sign-in h1 {
+    font-size: 25px;
+  }
+
+  .form-sign-in {
+    width: 200px;
+    font-size: x-small;
+  }
+
+  .form-sign-in button {
+    width: 70px;
+  }
+
+  .form-sign-in > a {
+    margin-left: 63px;
+  }
+
+  .create-acc {
+    padding-left: 28px;
+  }
+
+  .form-sign-in input {
+    padding-left: 20px;
+  }
+
+  .form-sign-in input[type="email"] {
+    background-size: 18px;
+  }
+
+  .form-sign-in input[type="password"] {
+    background-size: 15px;
+  }
+}

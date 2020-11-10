@@ -1,0 +1,65 @@
+.imageToShowInHomePage {
+  width: 236px;
+  border-radius: 15px;
+  margin-left: 6px;
+}
+
+.DadImgShow {
+  display: inline;
+  cursor: pointer;
+}
+
+.title {
+  margin-left: 6px;
+  font-weight: 600;
+  height: 25px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  .imageToShowInHomePage {
+    width: 170px;
+    margin-left: 3px;
+  }
+
+  .title {
+    height: 20px;
+    overflow: hidden;
+    font-size: 18px;
+  }
+
+  .imageToShowInHomePage {
+    margin-top: -3px;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .imageToShowInHomePage {
+    width: 154px;
+    margin-left: 3px;
+  }
+
+  .title {
+    height: 17px;
+    overflow: hidden;
+    font-size: 13px;
+  }
+
+  .imageToShowInHomePage {
+    margin-top: -3px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .imageToShowInHomePage {
+    width: 136px;
+    margin-left: 2px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .imageToShowInHomePage {
+    width: 116px;
+    margin-left: 2px;
+  }
+}
