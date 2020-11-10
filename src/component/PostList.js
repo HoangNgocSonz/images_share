@@ -56,10 +56,10 @@ class PostList extends Component {
 
   render() {
     var postList = this.state.posts
-      .filter(
-        (post) => post.title.includes("ch")
-        // !this.props.authors || this.props.authors.includes(post.author)
-      )
+      // .filter(
+      //   // (post) => post.title.includes("ch")
+      //   // !this.props.authors || this.props.authors.includes(post.author)
+      // )
       .map((post) => (
         <div
           className="DadImgShow"
